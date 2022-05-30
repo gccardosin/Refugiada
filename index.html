@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!--Page Info-->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Psicanalise</title>
+
+  <!--Icones-->
+  <link rel="stylesheet" href="Assets/fonts/style.css" />
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+  <!--Styles-->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+
+    <!-- GeoLocalização-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+   integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+   integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+   crossorigin=""></script>
+</head>
+
+<body>
+  <header id="header">
+    <nav class="container">
+      <a class="logo" href="#">Refugee<span>Home</span>.</a>
+      <!-- Menu -->
+      <div class="menu">
+        <ul class="grid">
+          <li><a class="title" href="#home">Início</a></li>
+          <li><a class="title" href="#services">Regras</a></li>
+          <li><a class="title" href="#testimonials">Experiencias</a></li>
+          <li><a class="title" href="#contact">Contato</a></li>
+        </ul>
+      </div>
+      <!-- /Menu-->
+      <div class="toggle icon-menu"></div>
+      <div class="toggle icon-close"></div>
+    </nav>
+  </header>
+
+  <!--################## Home #######################-->
+  <main>
+    <section class="section" id="home">
+      <div class="container grid">
+        <div class="image">
+          <img
+            src="https://media.istockphoto.com/photos/successful-therapy-young-female-client-having-consultation-with-for-picture-id1328878125?b=1&k=20&m=1328878125&s=170667a&w=0&h=xE0pQrq1kdvIU_Tv8iDbZT0sBp0kfQvXyfxl4Ysesfw="
+            alt="Consulta de psicanalise sendo realizada" />
+        </div>
+        <div class="text">
+          <h2 class="title">Encontre ou disponibilize um lar</h2>
+          <p>
+            Site desenvolvido para ucranianas encontrarem abrigos no Brasil e conseguir sair da guerra.
+          </p>
+          <a class="button" href="#contact">Verifique sua localização</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <!--################ Regras #######################-->
+    <section class="section" id="services">
+      <div class="container grid">
+        <header>
+          <h2 class="title">Algumas Regras</h2>
+          <p class="subtitle">
+            Lorem ipsum dolor sit amet <strong>adipisicing</strong> elit.
+            Mollitia corporis dolor ipsum natus sapiente illo laborum aperiam
+            autem? Similique ducimus quidem excepturi explicabo et nulla
+            libero officia quibusdam ullam soluta.
+          </p>
+        </header>
+        <div class="cards grid">
+          <div class="card">
+            <i class="icon-Vector-12"></i>
+            <h3 class="title">Apenas Mulheres podem ser inscritas</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+              pariatur eius iure
+            </p>
+          </div>
+          <div class="card">
+            <i class="icon-Vector-4"></i>
+            <h3 class="title">Verificação de localidade e identidade</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Deserunt culpa temporibus laudantium nisi vitae excepturi ipsa
+              praesentium
+            </p>
+          </div>
+          <div class="card">
+            <i class="icon-Vector-3"></i>
+            <h3 class="title">Escolha a melhor opção para você</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate, obcaecati? Laboriosam nobis voluptate laudantium, eum
+              eligendi fugiat facilis blanditiis natus?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <!--############## Experience #####################-->
+
+    <section class="section" id="testimonials">
+      <div class="container">
+        <header>
+          <h2 class="title">Experiencias</h2>
+        </header>
+        <div class="testimonials swiper-container">
+          <div class="swiper-wrapper">
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Tempore cum non iusto quod quia fugit debitis at ratione,
+                  esse voluptatibus, hic impedit
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/women/60.jpg" alt="" />
+                  Fulana de Tal
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Tempore cum non iusto quod quia fugit debitis at ratione,
+                  esse voluptatibus, hic impedit
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/women/90.jpg" alt="" />
+                  Zé de Oliveira
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Tempore cum non iusto quod quia fugit debitis at ratione,
+                  esse voluptatibus, hic impedit
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="" />
+                  Carla Lindenberg
+                </cite>
+              </blockquote>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <!--############## GeoLoc #####################-->
+    <section class="section" id="contact">
+      <div class="container grid">
+        <div class="text">
+          <h2 id = "geo" class="title">Sua localização</h2>         
+        </div>
+
+        <button class="button" onclick="localizar()">Find Me!!!</button>
+        <div id="map"></div>
+      </div>
+    </section>
+  </main>
+  <!--############## Footer #####################-->
+
+  <footer class="section">
+    <div class="container grid">
+      <div class="brand">
+        <a class="logo logo-alt" href="#home">Refugee<span>Home</span>.</a>
+        <p>© 2022 RefugeeHome.</p>
+        <p>Todos os direitos reservados</p>
+      </div>
+      <div class="social ">
+        <a href="https://instagram.com" target="_blank"><i class="icon-instagram"></i></a>
+        <a href="https://facebook.com" target="_blank"><i class="icon-facebook"></i></a>
+        <a href="htts://youtube.com" target="_blank"><i class="icon-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+  <!-- Swiper -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+  <!-- ScrollReveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- Main Js -->
+  <script src="main.js"></script>
+</body>
+
+</html>
