@@ -434,32 +434,42 @@ nav.show div.icon-close {
   position: relative;
 }
 
-/*------------- Contact ----------------*/
-#contact .grid {
+/*------------- location ----------------*/
+#location .grid {
   gap: 4rem;
 }
 
-#contact .text p {
+#location .text p {
   margin-bottom: 2rem;
 }
 
-#contact .button i,
-#contact ul li i {
+#location .button i,
+#location ul li i {
   font-size: 1.5rem;
   margin-right: 0.625rem;
 }
 
-#contact ul.grid {
+#location ul.grid {
   gap: 2rem;
 }
 
-#contact ul li {
+#location ul li {
   display: flex;
   align-items: center;
 }
 
-#contact ul li i {
+#location ul li i {
   color: var(--base-color);
+}
+
+#resultado {
+
+  background: var(--base-color);
+  color: var(--base-color-second);
+  padding: 1rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  width: 12.5rem;
 }
 
 /*------------- Footer ----------------*/
@@ -616,13 +626,13 @@ footer .social a:hover {
     margin-right: auto;
   }
 
-  /* contact */
-  #contact .container {
+  /* location */
+  #location .container {
     grid-auto-flow: column;
     align-items: center;
   }
 
-  #contact .text {
+  #location .text {
     max-width: 25rem;
   }
 

@@ -6,7 +6,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Psicanalise</title>
+  <title>Refugiada</title>
 
   <!--Icones-->
   <link rel="stylesheet" href="Assets/fonts/style.css" />
@@ -43,7 +43,7 @@
           <li><a class="title" href="#home">Início</a></li>
           <li><a class="title" href="#services">Regras</a></li>
           <li><a class="title" href="#testimonials">Experiencias</a></li>
-          <li><a class="title" href="#contact">Contato</a></li>
+          <li><a class="title" href="#location">localização</a></li>
         </ul>
       </div>
       <!-- /Menu-->
@@ -58,7 +58,7 @@
       <div class="container grid">
         <div class="image">
           <img
-            src="https://media.istockphoto.com/photos/successful-therapy-young-female-client-having-consultation-with-for-picture-id1328878125?b=1&k=20&m=1328878125&s=170667a&w=0&h=xE0pQrq1kdvIU_Tv8iDbZT0sBp0kfQvXyfxl4Ysesfw="
+            src="https://i.em.com.br/MHWDbJt5ScIlcFTly4jElnxzwJk=/1200x720/smart/imgsapp.em.com.br/app/noticia_127983242361/2022/02/24/1347860/yulia-mysko-ucraniana-que-vive-em-bh_1_57316.jpg"
             alt="Consulta de psicanalise sendo realizada" />
         </div>
         <div class="text">
@@ -66,7 +66,7 @@
           <p>
             Site desenvolvido para ucranianas encontrarem abrigos no Brasil e conseguir sair da guerra.
           </p>
-          <a class="button" href="#contact">Verifique sua localização</a>
+          <a class="button" href="#location">Verifique sua localização</a>
         </div>
       </div>
     </section>
@@ -180,14 +180,19 @@
     <div class="divider-2"></div>
 
     <!--############## GeoLoc #####################-->
-    <section class="section" id="contact">
+    <section class="section" id="location">
       <div class="container grid">
         <div class="text">
-          <h2 id = "geo" class="title">Sua localização</h2>         
-        </div>
+          <h2 id = "geo" class="title">Descubra se sua localização é valida</h2>         
+        </div>  
 
-        <button class="button" onclick="localizar()">Find Me!!!</button>
+        <button class="button" onclick="localizar()">Verficar!</button>
         <div id="map"></div>
+
+        <h3>Sua localização é valida?</h3>
+        <p id="resultado">Se você for refugiada é necessario estar na ucrania, caso seja
+          brasileira é necessario estar no Brasil</p>
+        </p>
       </div>
     </section>
   </main>
